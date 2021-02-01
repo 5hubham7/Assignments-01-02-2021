@@ -26,7 +26,7 @@
 
 ## Number to Words
 
-Convert any given number to words
+Convert any given number to words.
 
 Features:
 
@@ -38,7 +38,7 @@ Features:
 
 ## Number to Words Usisng Recursion
 
-Convert any given number to words
+Convert any given number to words.
 
 Features:
 
@@ -48,7 +48,7 @@ Features:
 
 ## Perfect Number
 
-Print all the perfect numbers within given limit
+Print all the perfect numbers within given limit. (currently 1000, we can change it to any number we want.)
 
 [Click here to open: Perfect Number](https://onlinegdb.com/2eKmSr3XU)
 
