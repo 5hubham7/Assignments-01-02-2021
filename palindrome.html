@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Palindrome - Shubham S. Yadav</title>
+        <script src="./palindrome.js"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2 class="h2">Palindrome - Shubham S. Yadav</h2>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-4 p-2">
+                    <input type="text" id="str" class="form-control" />
+                </div>
+                <div class="col-lg-4 p-2 d-grid">
+                    <button
+                        class="btn btn-outline-primary text-uppercase"
+                        onclick="check();"
+                    >
+                        Check Palindrome
+                    </button>
+                </div>
+                <div class="col-lg-4 p-2 d-grid">
+                    <a
+                        class="btn btn-outline-success text-uppercase"
+                        href="https://github.com/5hubham7/Assignments-01-02-2021/blob/master/palindrome.js"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View code
+                    </a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <h3 class="h3" id="result"></h3>
+            </div>
+            <h4 class="h4">Test cases:</h4>
+            <div class="my-2 py-2">
+                <h5 class="h5">Test ID: <strong>1</strong></h5>
+                <h5 class="h5">Test Data:</h5>
+                <h6 class="h6">String: madam</h6>
+                <h5 class="h5">Expected output:</h5>
+                <h6 class="h6">String is palindrome!</h6>
+                <h5 class="h5">Actual output: Same as expected</h5>
+                <h5 class="h5">Result: <strong>Pass</strong></h5>
+            </div>
+            <div class="my-2 py-2">
+                <h5 class="h5">Test ID: <strong>2</strong></h5>
+                <h5 class="h5">Test Data:</h5>
+                <h6 class="h6">String: mad</h6>
+                <h5 class="h5">Expected output:</h5>
+                <h6 class="h6">String is not palindrome!</h6>
+                <h5 class="h5">Actual output: Same as expected</h5>
+                <h5 class="h5">Result: <strong>Pass</strong></h5>
+            </div>
+            <div class="my-2 py-2">
+                <h5 class="h5">Test ID: <strong>3</strong></h5>
+                <h5 class="h5">Test Data:</h5>
+                <h6 class="h6">String: a</h6>
+                <h5 class="h5">Expected output:</h5>
+                <h6 class="h6">String is palindrome!</h6>
+                <h5 class="h5">Actual output: Same as expected</h5>
+                <h5 class="h5">Result: <strong>Pass</strong></h5>
+            </div>
+            <div class="my-2 py-2">
+                <h5 class="h5">Test ID: <strong>4</strong></h5>
+                <h5 class="h5">Test Data:</h5>
+                <h6 class="h6">String: 1</h6>
+                <h5 class="h5">Expected output:</h5>
+                <h6 class="h6">String is palindrome!</h6>
+                <h5 class="h5">Actual output: Same as expected</h5>
+                <h5 class="h5">Result: <strong>Pass</strong></h5>
+            </div>
+            <div class="my-2 py-2">
+                <h5 class="h5">Test ID: <strong>5</strong></h5>
+                <h5 class="h5">Test Data:</h5>
+                <h6 class="h6">String: 121</h6>
+                <h5 class="h5">Expected output:</h5>
+                <h6 class="h6">String is palindrome!</h6>
+                <h5 class="h5">Actual output: Same as expected</h5>
+                <h5 class="h5">Result: <strong>Pass</strong></h5>
+            </div>
+            <div class="my-2 py-2">
+                <h5 class="h5">Test ID: <strong>6</strong></h5>
+                <h5 class="h5">Test Data:</h5>
+                <h6 class="h6">String: 12</h6>
+                <h5 class="h5">Expected output:</h5>
+                <h6 class="h6">String is not palindrome!</h6>
+                <h5 class="h5">Actual output: Same as expected</h5>
+                <h5 class="h5">Result: <strong>Pass</strong></h5>
+            </div>
+        </div>
+    </body>
+</html>
