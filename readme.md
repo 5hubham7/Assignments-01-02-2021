@@ -1,7 +1,7 @@
 ## Book Management System using Linked List
 
 .
-[a link](https://5hubham7.github.io/Assignments-01-02-2021/linked_list.html)
+[a link](https://5hubham7.github.io/Assignments-01-02-2021/linked_list.html) open
 .
 
 ## Matrix Multiplaction
