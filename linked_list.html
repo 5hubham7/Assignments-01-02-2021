@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Book Management using Linked List - Shubham S. Yadav</title>
+        <script src="./linked_list.js"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2 class="h2">
+                    Books Management using Linked List - Shubham S. Yadav
+                </h2>
+            </div>
+            <div class="my-3">
+                <h5 class="h5">
+                    Problem statement:
+                    <strong
+                        >Implement a simple books management system using singly
+                        linked list.</strong
+                    >
+                </h5>
+                <h5 class="h5">Language used: <strong>JavaScript</strong></h5>
+                <h5 class="h5">Features:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">1. Insert book at the end</li>
+                    <li class="list-group-item">2. Remove book from the end</li>
+                    <li class="list-group-item">3. Insert book at the start</li>
+                    <li class="list-group-item">
+                        4. Remove book from the start
+                    </li>
+                    <li class="list-group-item">
+                        5. Remove an element by its index
+                    </li>
+                    <li class="list-group-item">6. list all the books</li>
+                </ul>
+            </div>
+
+            <div class="row m-3">
+                <div class="col-lg-3 m-2">
+                    <input
+                        type="text"
+                        id="insertAtLast"
+                        class="form-control"
+                        placeholder="Enter book name to insert"
+                    />
+                </div>
+                <div class="col-lg-3 d-grid m-2">
+                    <button
+                        class="btn btn-block btn-outline-success text-uppercase"
+                        onclick="insertAtLast()"
+                    >
+                        insert at last
+                    </button>
+                </div>
+
+                <div class="col-lg-3 d-grid m-2">
+                    <button
+                        class="btn btn-block btn-outline-danger text-uppercase"
+                        onclick="removeAtLast()"
+                    >
+                        remove at last
+                    </button>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col-lg-3 m-2">
+                    <input
+                        type="text"
+                        id="insertAtFirst"
+                        class="form-control"
+                        placeholder="Enter book name to insert"
+                    />
+                </div>
+
+                <div class="col-lg-3 d-grid m-2">
+                    <button
+                        class="btn btn-block btn-outline-success text-uppercase"
+                        onclick="insertAtFirst()"
+                    >
+                        insert at first
+                    </button>
+                </div>
+                <div class="col-lg-3 d-grid m-2">
+                    <button
+                        class="btn btn-block btn-outline-danger text-uppercase"
+                        onclick="removeAtFirst()"
+                    >
+                        remove at first
+                    </button>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col-lg-3 m-2">
+                    <input
+                        type="text"
+                        id="removeAt"
+                        class="form-control"
+                        placeholder="Enter book number to delete"
+                    />
+                </div>
+                <div class="col-lg-3 d-grid m-2">
+                    <button
+                        class="btn btn-block btn-outline-danger text-uppercase"
+                        onclick="removeAt()"
+                    >
+                        remove by index
+                    </button>
+                </div>
+
+                <div class="col-lg-3 d-grid m-2">
+                    <a
+                        class="btn btn-block btn-outline-success text-uppercase"
+                        href="https://github.com/5hubham7/Assignments-01-02-2021/blob/master/linked_list.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        view code
+                    </a>
+                </div>
+            </div>
+            <table class="table" id="table" hidden>
+                <thead>
+                    <tr>
+                        <th>Sr. No.</th>
+                        <th>Book Name</th>
+                    </tr>
+                </thead>
+                <tbody id="booksTable"></tbody>
+            </table>
+        </div>
+    </body>
+</html>
