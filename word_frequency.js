@@ -21,7 +21,7 @@ const check = async () => {
     let word = document.getElementById("word").value;
     let frequency = await totalFrequency(text);
     for (let i in frequency) {
-        if (i == word) {
+        if (i == word.toLowerCase()) {
             alert("Frequency: " + frequency[i]);
             return 0;
         }
