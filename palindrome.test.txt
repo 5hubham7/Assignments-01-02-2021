@@ -4,19 +4,19 @@ PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021> npm run test palind
 > jest "palindrome"
 
  PASS  ./palindrome.test.js
-  √ Checking empty string or null for NOT palindrome (4 ms)
-  √ Checking symbols '@#$$#@' for palindrome
-  √ Checking string 'madam' for palindrome (1 ms)
-  √ Checking number 1 for palindrome (1 ms)
-  √ Checking number 121 for palindrome
-  √ Checking number 121121121121 for palindrome (1 ms)
-  √ Checking string 'mad' for NOT palindrome
-  √ Checking string 'madama' for NOT palindrome (1 ms)
-  √ Checking number 123 for NOT palindrome
+  √ Returns false for empty string or null (2 ms)
+  √ Returns true for string '@#$$#@' (1 ms)
+  √ Returns true for string 'madam'
+  √ Returns true for number 1
+  √ Returns true for number 121
+  √ Returns true for number 121121121121 (1 ms)
+  √ Returns false for string 'mad'
+  √ Returns false for string 'madama'
+  √ Returns false for number 123
 
 Test Suites: 1 passed, 1 total
 Tests:       9 passed, 9 total
 Snapshots:   0 total
-Time:        1.646 s
+Time:        2.38 s
 Ran all test suites matching /palindrome/i.
 PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021>

@@ -1,0 +1,23 @@
+PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021> npm run test matrix_multi
+
+> 01-02-2021@1.0.0 test C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021
+> jest "matrix_multi"
+
+ PASS  ./matrix_multi.test.js
+  √ Returns 'Object is not an array' matrix for empty/null matrix * empty/null matrix (2 ms)
+  √ Returns 2x2 matrix for 2x2 matrix * 2x2 matrix (1 ms)
+  √ Returns 3x3 matrix for 3x3 matrix * 3x3 matrix
+  √ Returns 3x3 matrix for 3x3 matrix * 3x3 matrix [with some negative values] (1 ms)
+  √ Returns 3x3 matrix for 3x3 matrix * 3x3 matrix [with some fractions]
+  √ Returns 3x3 matrix for 3x3 matrix * 3x3 matrix [with all 0's]
+  √ Returns 3x3 matrix for 3x3 matrix * 3x3 matrix [with all 1's] (1 ms)
+  √ Returns 3x4 matrix for 3x3 matrix * 3x4 matrix
+  √ Returns 3x3 matrix for 3x4 matrix * 4x3 matrix
+  √ Returns 4x4 matrix for 4x3 matrix * 3x4 matrix (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        1.952 s
+Ran all test suites matching /matrix_multi/i.
+PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021>

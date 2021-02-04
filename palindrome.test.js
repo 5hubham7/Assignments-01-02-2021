@@ -1,37 +1,37 @@
 const palindrome = require("./palindrome");
 
-test("Checking empty string or null for NOT palindrome", () => {
+test("Returns false for empty string or null", () => {
     expect(palindrome("")).toBe(false);
 });
 
-test("Checking symbols '@#$$#@' for palindrome", () => {
+test("Returns true for string '@#$$#@'", () => {
     expect(palindrome("@#$$#@")).toBe(true);
 });
 
-test("Checking string 'madam' for palindrome", () => {
+test("Returns true for string 'madam'", () => {
     expect(palindrome("madam")).toBe(true);
 });
 
-test("Checking number 1 for palindrome", () => {
+test("Returns true for number 1", () => {
     expect(palindrome(1)).toBe(true);
 });
 
-test("Checking number 121 for palindrome", () => {
+test("Returns true for number 121", () => {
     expect(palindrome(121)).toBe(true);
 });
 
-test("Checking number 121121121121 for palindrome", () => {
+test("Returns true for number 121121121121", () => {
     expect(palindrome(121121121121)).toBe(true);
 });
 
-test("Checking string 'mad' for NOT palindrome", () => {
+test("Returns false for string 'mad'", () => {
     expect(palindrome("mad")).toBe(false);
 });
 
-test("Checking string 'madama' for NOT palindrome", () => {
+test("Returns false for string 'madama'", () => {
     expect(palindrome("madama")).toBe(false);
 });
 
-test("Checking number 123 for NOT palindrome", () => {
+test("Returns false for number 123", () => {
     expect(palindrome(123)).toBe(true);
 });

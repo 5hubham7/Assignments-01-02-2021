@@ -12,7 +12,13 @@
 
 ## Check Palindrome
 
-[Click here to see tests](https://5hubham7.github.io/Assignments-01-02-2021/palindrome.test.txt)
+Problem Statement: Check given string is palindrome or not.
+
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/palindrome.js)
+
+[Click here to see the test code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/palindrome.test.js)
+
+[Click here to see the test code output](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/palindrome.test.txt)
 
 # Old Assignments: 29-01-21
 
