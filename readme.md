@@ -4,15 +4,27 @@
 
 ## Matrix Multiplaction
 
-[Click to open: Matrix Multiplaction](https://5hubham7.github.io/Assignments-01-02-2021/matrix_multi.html)
+Problem Statement: Write a program to perform matrix multiplication in n x m matrix.
+
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/matrix_multi.js)
+
+[Click here to see the test code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/matrix_multi.test.js)
+
+[Click here to see the test code output](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/matrix_multi.test.txt)
 
 ## Frequency of Words
 
-[Click here to open: Frequency of Words](https://5hubham7.github.io/Assignments-01-02-2021/word_frequency.html)
+Problem Statement: Write a program to find the frequency of a word in the given text.
+
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/word_frequency.js)
+
+[Click here to see the test code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/word_frequency.test.js)
+
+[Click here to see the test code output](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/word_frequency.test.txt)
 
 ## Check Palindrome
 
-Problem Statement: Check given string is palindrome or not.
+Problem Statement: Write a program to check given string is palindrome or not.
 
 [Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/palindrome.js)
 
