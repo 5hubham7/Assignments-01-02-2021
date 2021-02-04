@@ -1,0 +1,19 @@
+{
+  "name": "01-02-2021",
+  "version": "1.0.0",
+  "description": ".\r [Click here to open: Book Management System using Linked List](https://5hubham7.github.io/Assignments-01-02-2021/linked_list.html)\r .",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5hubham7/Assignments-01-02-2021.git"
+  },
+  "author": "Shubham S. Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5hubham7/Assignments-01-02-2021/issues"
+  },
+  "homepage": "https://github.com/5hubham7/Assignments-01-02-2021#readme"
+}

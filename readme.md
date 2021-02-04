@@ -12,32 +12,7 @@
 
 ## Check Palindrome
 
-[Click here to open: Check Palindrome](https://5hubham7.github.io/Assignments-01-02-2021/palindrome.html)
-
-#### Tests:
-
-PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021> npm run test palindrome
-
-> 01-02-2021@1.0.0 test C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021
-> jest "palindrome"
-
-PASS ./palindrome.test.js
-√ Checking empty string or null for NOT palindrome (4 ms)
-√ Checking symbols '@#$$#@' for palindrome
-√ Checking string 'madam' for palindrome (1 ms)
-√ Checking number 1 for palindrome (1 ms)
-√ Checking number 121 for palindrome
-√ Checking number 121121121121 for palindrome (1 ms)
-√ Checking string 'mad' for NOT palindrome
-√ Checking string 'madama' for NOT palindrome (1 ms)
-√ Checking number 123 for NOT palindrome
-
-Test Suites: 1 passed, 1 total
-Tests: 9 passed, 9 total
-Snapshots: 0 total
-Time: 1.646 s
-Ran all test suites matching /palindrome/i.
-PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021>
+[Click here to see tests](https://5hubham7.github.io/Assignments-01-02-2021/palindrome.test.txt)
 
 # Old Assignments: 29-01-21
 

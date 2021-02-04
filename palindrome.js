@@ -1,13 +1,15 @@
-const isPalindrome = (str) => {
-    return str == str.split("").reverse().join("");
-};
-
-const check = () => {
-    let str = document.getElementById("str").value;
-    if (isPalindrome(str)) {
-        document.getElementById("result").innerHTML = "String is palindrome!";
+const checkPalindrome = (obj) => {
+    if (obj) {
+        let len = obj.length;
+        for (let i = 0; i < len / 2; i++) {
+            if (obj.charAt(i) !== obj.charAt(len - 1 - i)) {
+                return false;
+            }
+        }
+        return true;
     } else {
-        document.getElementById("result").innerHTML =
-            "String is not palindrome!";
+        return false;
     }
 };
+
+module.exports = checkPalindrome;

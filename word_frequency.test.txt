@@ -1,0 +1,23 @@
+PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021> npm run test word_frequency
+
+> 01-02-2021@1.0.0 test C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021
+> jest "word_frequency"
+
+ PASS  ./word_frequency.test.js
+  √ RETURNS: 'Text cannot be empty!' for TEXT: '' and WORD: 'aa bb cc' (3 ms)
+  √ RETURNS: 'Word cannot be empty!' for TEXT: 'aa bb cc' and WORD: '' (1 ms)
+  √ RETURNS: 'Please enter just one word' for TEXT: 'aa bb cc' and WORD: 'aa bb'
+  √ RETURNS: '1' for TEXT: 'aa bb cc' and WORD: 'aa' (1 ms)
+  √ RETURNS: '2' for TEXT: 'aa aa bb cc' and WORD: 'aa'
+  √ RETURNS: '2' for TEXT: 'Aa aa bb cc' and WORD: 'aa' (1 ms)
+  √ RETURNS: '2' for TEXT: 'Aa aa bb cc' and WORD: 'Aa'
+  √ RETURNS: '4' for TEXT: 'Aa aa bb cc Aa aa bb cc' and WORD: 'aa'
+  √ RETURNS: '4' for TEXT: 'Aa aa, bb cc Aa! aa bb cc.' and WORD: 'aa'
+  √ RETURNS: '2' for TEXT: 'Aa.. aa.. bb.. cc..' and WORD: 'aa'
+
+Test Suites: 1 passed, 1 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        1.429 s
+Ran all test suites matching /word_frequency/i.
+PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021>
