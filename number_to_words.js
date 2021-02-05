@@ -119,6 +119,4 @@ const numberToWords = (num) => {
     return finalString;
 };
 
-console.log(numberToWords(999999999999999));
-
 module.exports = numberToWords;
