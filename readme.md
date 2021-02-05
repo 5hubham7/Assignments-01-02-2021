@@ -58,7 +58,7 @@ Disadvantages:
 
 Better Solution:
 
--   To overcome from the limitation of JavaScript, I've used Python which supports longer numbers.
+-   To overcome the limitation of JavaScript, I've used Python which supports longer numbers.
 
 [Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.py)
 
