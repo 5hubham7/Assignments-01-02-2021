@@ -12,4 +12,4 @@ def maxOccurance(str1):
             print(key, "=>", maxValue)
 
 
-maxOccurance("aabbccdef")
+maxOccurance(input("Enter a string: "))

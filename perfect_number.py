@@ -9,4 +9,4 @@ def perfect_number(n):
             print(i)
 
 
-perfect_number(1000)
+perfect_number(int(input("Enter the number: ")))

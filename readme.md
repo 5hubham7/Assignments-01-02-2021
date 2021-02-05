@@ -40,10 +40,10 @@ Problem Statement: Write a program to check given string is palindrome or not.
 
 Problem Statement: Write a program to convert any given number to words.
 
-Features:
+Advantages:
 
--   Checking for minus numbers
--   Checking for empty/null input
+-   Checking for minus numbers.
+-   Checking for empty/null input.
 
 Disadvantages:
 
@@ -58,34 +58,51 @@ Disadvantages:
 
 Better Solution:
 
--   To overcome the limitation of JavaScript, I've used Python which supports longer numbers.
+To overcome the limitation of JavaScript, I've used Python which supports longer numbers.
+
+Advantages:
+
+-   Checks for minus numbers.
+-   Checks for empty/null input.
+-   Supports any number till maha shankh.
 
 [Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.py)
 
 [Click here to run the code](https://onlinegdb.com/IbuePrY1P)
 
-## Number to Words Usisng Recursion
+Another Solution:
 
-Convert any given number to words.
+Advantages:
 
-Features:
+-   Uses recursion so less code.
+-   Supports any number till maha shankh.
 
--   1. Just used recursion to reduce size of code.
+Disadvantages:
 
-[Click here to open: Number to Words Usisng Recursion](https://onlinegdb.com/0U3XEo_E-)
+-   Works only for best case scenario.
+-   No checks for minus number.
+-   No checks for empty/null input.
+
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words_recursion.py)
+
+[Click here to run the code](https://onlinegdb.com/0U3XEo_E-)
 
 ## Perfect Number
 
-Print all the perfect numbers within given limit. (currently 1000, we can change it to any number we want.)
+Problem Statement: Print all the perfect numbers within given limit.
 
-[Click here to open: Perfect Number](https://onlinegdb.com/2eKmSr3XU)
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/perfect_number.py)
+
+[Click here to open: Perfect Number](https://onlinegdb.com/nONiHmnwN)
 
 ## Max Occurance
 
-Print which character occured maximum times in a string.
+Problem Statement: Print which character occured maximum times in a string.
 
-features:
+Advantages:
 
--   1. Checking for multiple maximum characters.
+-   Checking for multiple maximum characters i.e. if string contains multiple maximum characters, ut will return all of them.
 
-[Click here to open: Max Occurance](https://onlinegdb.com/rPk2cJBx0)
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/max_occurance.py)
+
+[Click here to open: Max Occurance](https://onlinegdb.com/8ZWf3DcGN)
