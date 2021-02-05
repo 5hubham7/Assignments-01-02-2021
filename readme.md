@@ -36,15 +36,31 @@ Problem Statement: Write a program to check given string is palindrome or not.
 
 ## Number to Words
 
-Convert any given number to words.
+Problem Statement: Write a program to convert any given number to words.
 
 Features:
 
--   1. Checking for minus numbers
--   2. Checking for invalid input
--   3. Checking for longer numbers more than maha shankh
+-   Checking for minus numbers
+-   Checking for empty/null input
 
-[Click here to open: Number to Words](https://onlinegdb.com/IbuePrY1P)
+Disadvantages:
+
+-   JavaScript doesn't support numbers greater than 17 digits i.e. 999999999999999.
+-   Therefore code is not working for numbers greater than 17 digits.
+
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.js)
+
+[Click here to see the test code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.test.js)
+
+[Click here to see the test code output](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.test.txt)
+
+Better Solution:
+
+-   To overcome from the limitation of JavaScript, I've used Python which supports longer numbers.
+
+[Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.py)
+
+[Click here to run the code](https://onlinegdb.com/IbuePrY1P)
 
 ## Number to Words Usisng Recursion
 
