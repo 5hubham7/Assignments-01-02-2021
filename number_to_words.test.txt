@@ -1,0 +1,48 @@
+PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021> npm run test number_to_words
+
+> 01-02-2021@1.0.0 test C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021
+> jest "number_to_words"
+
+ FAIL  ./number_to_words.test.js
+  √ Returns 'Please enter a number' for empty/null input (5 ms)
+  √ Returns 'Zero' for 0
+  √ Returns 'One' for 1 (1 ms)
+  √ Returns 'Twelve Padma Thirty Four Neel Fifty Six Kharab Seventy Eight Arab Ninety One Crore Twenty Three Lakh Forty Five Thousand Six Hundred Seventy Eight' for 123456789123456789123 (1 ms)
+  √ Returns 'Ninety Nine Neel Ninety Nine Kharab Ninety Nine Arab Ninety Nine Crore Ninety Nine Lakh Ninety Nine Thousand Nine Hundred 
+Ninety Nine' for 999999999999999 (1 ms)
+  × Returns 'Nine Padma Ninety Nine Neel Ninety Nine Kharab Ninety Nine Arab Ninety Nine Crore Ninety Nine Lakh Ninety Nine Thousand Nine Hundred Ninety Nine' for 123456789012345678901 (14 ms)
+
+  ● Returns 'Nine Padma Ninety Nine Neel Ninety Nine Kharab Ninety Nine Arab Ninety Nine Crore Ninety Nine Lakh Ninety Nine Thousand Nine Hundred Ninety Nine' for 123456789012345678901
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Nine Padma Ninety Nine Neel Ninety Nine Kharab Ninety Nine Arab Ninety Nine Crore Ninety Nine Lakh Ninety Nine Thousand 
+Nine Hundred Ninety Nine"
+    Received: "Ten Padma  Neel  Kharab  Arab  Crore  Lakh  Thousand  Hundred "
+
+      26 |
+      27 | test("Returns 'Nine Padma Ninety Nine Neel Ninety Nine Kharab Ninety Nine Arab Ninety Nine Crore Ninety Nine Lakh Ninety Nine Thousand Nine Hundred Ninety Nine' for 123456789012345678901", () => {
+    > 28 |     expect(numberToWords(9999999999999999)).toBe(
+         |                                             ^
+      29 |         "Nine Padma Ninety Nine Neel Ninety Nine Kharab Ninety Nine Arab Ninety Nine Crore Ninety Nine Lakh Ninety Nine Thousand Nine Hundred Ninety Nine"
+      30 |     );
+      31 | });
+
+      at Object.<anonymous> (number_to_words.test.js:28:45)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        1.839 s, estimated 2 s
+Ran all test suites matching /number_to_words/i.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! 01-02-2021@1.0.0 test: `jest "number_to_words"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the 01-02-2021@1.0.0 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Shubham\AppData\Roaming\npm-cache\_logs\2021-02-05T15_28_35_354Z-debug.log
+PS C:\Users\Shubham\Documents\Assignments\Week 4\01-02-2021>
