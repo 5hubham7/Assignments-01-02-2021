@@ -47,7 +47,7 @@ Features:
 
 Disadvantages:
 
--   JavaScript doesn't support numbers greater than 17 digits i.e. 999999999999999.
+-   JavaScript doesn't support numbers greater than 17 digits.
 -   Therefore code is not working for numbers greater than 17 digits.
 
 [Click here to see the code](https://github.com/5hubham7/Assignments-01-02-2021/blob/master/number_to_words.js)
